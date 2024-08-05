@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo (2).png";
+import logo from "../../assets/hirehub.jpg";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <a href="/">
-                <img src={logo} className="h-14 me-3" alt="FlowBite Logo" />
+                <img src={logo} className="h-20 me-3" alt="FlowBite Logo" />
               </a>
               <p className="lg:w-96 text-gray-300 my-2">
               Your gateway to a brighter future. Discover opportunities, connect with employers, 
@@ -116,7 +116,7 @@ const Footer = () => {
               <h3 className="flex items-center mb-2">
                 <span className="mr-2"> <MdOutlineEmail /> </span>
                 Email:
-                <p className="mx-3 text-gray-400">careerhub1212@gmail.com</p>
+                <p className="mx-3 text-gray-400">hirehub1212@gmail.com</p>
               </h3>
 
               <h3 className="flex items-center">
@@ -133,7 +133,7 @@ const Footer = () => {
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2024{" "}
               <a href="/" className="hover:underline">
-                Career Hub
+                HireHub
               </a>
               . All Rights Reserved.
             </span>

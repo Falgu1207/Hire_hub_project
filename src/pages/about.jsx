@@ -20,7 +20,7 @@ const About = () => {
           </h2>
           <p className="my-4 lg:px-10 px-4 lg:text-lg text-center md:text-md text-blue-800">
             {" "}
-            At Career Hub, our mission is to help people get jobs. We have more
+            At Hire Hub, our mission is to help people get jobs. We have more
             than 5000 global employees passionately pursuing this purpose and
             improving the recruitment journey through real stories and data. We
             foster a collaborative workspace that strives to create the best
@@ -105,9 +105,9 @@ const About = () => {
     </div>
     <div>
       <ProfileCards />
-    </div>
+    </div> 
     
-  </div>
+   </div>
       <Footer />
     </>
   );

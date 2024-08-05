@@ -18,7 +18,7 @@ async function sendEmail(formData) {
 
     // Email content
     let mailOptions = {
-     from: `"Career Hub | search your job " <${process.env.MAIL_USER}>`, 
+     from: `"Hire Hub | search your job " <${process.env.MAIL_USER}>`, 
       to: email,
       subject: 'New Job Application Submitted',
       html: `

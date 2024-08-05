@@ -1,12 +1,11 @@
 import React from 'react';
-import profile1 from "../../assets/Team-member/khush.png";
-import profile2 from "../../assets/Team-member/harsh.png";
-import profile3 from "../../assets/Team-member/jay.png";
-import profile4 from "../../assets/Team-member/rajan.png";
-import profile5 from "../../assets/Team-member/janvi.png";
-import profile6 from "../../assets/Team-member/harita.png";
-import profile7 from "../../assets/Team-member/aayushi.png";
-import profile8 from "../../assets/Team-member/bhaumik.png";
+import profile1 from "../../assets/Team-member/falguni (3).jpg";
+import profile2 from "../../assets/Team-member/harita.png";
+import profile3 from "../../assets/Team-member/dhvani.jpg";
+import profile4 from "../../assets/Team-member/ridhdhi.jpg";
+
+
+
 
 function GitlabIcon(props) {
   return (
@@ -71,68 +70,36 @@ function LinkedinIcon(props) {
 
 const teamMembers = [
   { 
-    name: 'Khush Prajapati', 
+    name: 'Falguni Chaudhary', 
     role: 'Full Stack Developer', 
     image: profile1,
-    gitlab: 'https://github.com/Khushprajapati2004',
-    instagram: 'https://www.instagram.com/itiskhush/',
-    linkedin: 'https://www.linkedin.com/in/khush-prajapati-9a9944241/'
-  },
-  { 
-    name: 'Harsh Akbari', 
-    role: 'Full Stack Developer', 
-    image: profile2,
-    gitlab: 'https://github.com/Harshakabari',
-    instagram: 'https://instagram.com/harshakbari',
-    linkedin: 'https://www.linkedin.com/in/harshakabari/'
-  },
-  { 
-    name: 'Jay Patel', 
-    role: 'Full Stack Developer', 
-    image: profile3,
-    gitlab: 'https://github.com/jaypatidar1230',
-    instagram: 'https://www.instagram.com/jay_patidar_1230/',
-    linkedin: 'https://www.linkedin.com/in/jay-patel-5187bb251/'
-  },
-  { 
-    name: 'Rajan Ghelani', 
-    role: 'Full Stack Developer', 
-    image: profile4,
-    gitlab: 'https://github.com/Rajanghelani29',
-    instagram: 'https://www.instagram.com/rajanghelani_07/',
-    linkedin: 'https://www.linkedin.com/in/rajan-ghelani-0585b0253/'
-  },
-  { 
-    name: 'Janvi Upadhyay', 
-    role: 'Front-end Developer', 
-    image: profile5,
-    gitlab: 'https://github.com/Janvi0001',
-    instagram: 'https://www.instagram.com/janviupadhyay1806/',
-    linkedin: 'https://www.linkedin.com/in/janvi-upadhyay-49872a263/'
+    // gitlab: 'https://github.com/Khushprajapati2004',
+    // instagram: 'https://www.instagram.com/itiskhush/',
+    // linkedin: 'https://www.linkedin.com/in/khush-prajapati-9a9944241/'
   },
   { 
     name: 'Harita Gothi', 
-    role: 'Front-end Developer', 
-    image: profile6,
-    gitlab: 'https://github.com/Harita2410',
-    instagram: 'https://www.instagram.com/harita_1209/',
-    linkedin: 'https://www.linkedin.com/in/harita-gothi-1b2b44272/'
+    role: 'Full Stack Developer', 
+    image: profile2,
+    // gitlab: 'https://github.com/Harshakabari',
+    // instagram: 'https://instagram.com/harshakbari',
+    // linkedin: 'https://www.linkedin.com/in/harshakabari/'
   },
   { 
-    name: 'Aayushi Banugariya', 
-    role: 'Front-end Developer', 
-    image: profile7,
-    gitlab: 'https://github.com/aayushi1708',
-    instagram: 'https://instagram.com/aayushibanugariya',
-    linkedin: 'https://linkedin.com/in/aayushibanugariya'
+    name: 'Dhvani Parghi', 
+    role: 'Full Stack Developer', 
+    image: profile3,
+    // gitlab: 'https://github.com/jaypatidar1230',
+    // instagram: 'https://www.instagram.com/jay_patidar_1230/',
+    // linkedin: 'https://www.linkedin.com/in/jay-patel-5187bb251/'
   },
   { 
-    name: 'Bhaumik Goswami', 
-    role: 'Front-end Developer', 
-    image: profile8,
-    gitlab: 'https://github.com/bhaumikgoswami17',
-    instagram: 'https://www.instagram.com/goswami_bhaumik/',
-    linkedin: 'https://www.linkedin.com/in/bhaumik-goswami-b2178a251/'
+    name: 'Riddhi Parmar', 
+    role: 'Full Stack Developer', 
+    image: profile4,
+    // gitlab: 'https://github.com/Rajanghelani29',
+    // instagram: 'https://www.instagram.com/rajanghelani_07/',
+    // linkedin: 'https://www.linkedin.com/in/rajan-ghelani-0585b0253/'
   }
 ];
 
@@ -145,7 +112,7 @@ export default function Component() {
             <img className="rounded-full w-20 h-20 mb-4" src={member.image} alt={`${member.name} Avatar`} />
             <h3 className="text-lg text-gray-800 font-semibold">{member.name}</h3>
             <p className="text-gray-500 dark:text-gray-400">{member.role}</p>
-            <div className="flex items-center space-x-4 mt-4">
+            {/* <div className="flex items-center space-x-4 mt-4">
               <a href={member.gitlab} className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">
                 <GitlabIcon className="w-5 h-5" />
               </a>
@@ -155,7 +122,7 @@ export default function Component() {
               <a href={member.linkedin} className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">
                 <LinkedinIcon className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       ))}

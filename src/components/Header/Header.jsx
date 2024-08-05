@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../../assets/Logo (2).png'; 
+import Logo from '../../assets/hirehub.jpg'; 
 import { NavbarLinks } from "../../Data/navbar-links.js";
 import ProfileDropdown from "../core/ProfileDropdown.jsx";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -41,7 +41,7 @@ function Header() {
       <div className="flex px-4 md:px-20 items-center justify-between sticky w-full z-30 bg-white bg-opacity-100 backdrop-blur-lg transition-all duration-300">
         {/* Logo */}
         <Link to="/">
-          <img src={Logo} className="mr-3 lg:h-14 h-12 select-none" loading='lazy' alt="Logo" />
+          <img src={Logo} className="mr-3 lg:h-20 h-20 select-none" loading='lazy' alt="Logo" />
           <h1 className='sr-only'>Career Hub</h1>
         </Link>
         {/* Navigation links */}
