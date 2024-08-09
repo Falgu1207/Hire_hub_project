@@ -66,12 +66,12 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div className="container">
-			            <h2 classname="text-blue-900 bg-white p-1 rounded-lg">Career Hub</h2>
+			            <h2 classname="text-blue-900 bg-white p-1 rounded-lg">Hire Hub</h2>
 
 			<div className="message">OTP Verification Email</div>
 			<div className="body">
 				<p>Dear User,</p>
-				<p>Thank you for registering with CareerHub. To complete your registration, please use the following OTP
+				<p>Thank you for registering with Hire Hub. To complete your registration, please use the following OTP
 					(One-Time Password) to verify your account:</p>
 				<h2 className="highlight">${otp}</h2>
 				<p>This OTP is valid for 5 minutes. If you did not request this verification, please disregard this email.
