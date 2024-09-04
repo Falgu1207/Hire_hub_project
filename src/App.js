@@ -9,6 +9,7 @@ import Contact from "./pages/contact";
 import About from "./pages/about";
 import Jobform from "./pages/PostForm";
 import Blog from "./pages/blog";
+import MakeResume from './pages/MakeResume.jsx';
 import JobApplicationForm from './components/JobApplicationForm/JobApplicationForm';
 import OpenRoute from './components/core/OpenRoute';
 import Error from './components/core/Error.jsx';
@@ -33,6 +34,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/postform' element={<Jobform />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/MakeResume' element={<MakeResume />} />
         <Route path='/jobapplicationform/:id' element={<JobApplicationForm />} />
         <Route path="*" element={<Error />} />
         <Route

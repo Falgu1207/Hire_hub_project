@@ -20,4 +20,8 @@ export const NavbarLinks = [
     title: "Contact Us",
     path: "/contact",
   },
+  {
+    title: "Make Resume",
+    path: "/MakeResume"
+  },
 ];
